@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.logo{
+    color: rgb(92, 88, 88);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(49, 16, 16);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: rgb(148, 79, 79);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(77, 16, 16);
+    transition: 4s;
+}
+button{
+    background-color: rgb(221, 180, 180);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(221, 180, 180);
+    cursor: pointer;
+}
+.content{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../IMAGES/I4.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+h1{
+
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 125%;
+}
+h3{
+    color: rgb(233, 213, 213);
+    font-size: 155%;
+    margin-bottom: 50px;
+}
